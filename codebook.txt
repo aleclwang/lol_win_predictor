@@ -1,0 +1,93 @@
+gameDuration (integer): Total duration of the game in seconds, from the beginning to the destruction of a nexus
+surrendered (categorical): If the game ended in a surrender or not
+win (categorical): The winning team
+firstBloodTeam (categorical): The team that got the first kill
+blueTopSummonerId (string): Internal player ID of the blue team toplaner
+blueTopChampionName (categorical): Name of the blue team toplane champion
+blueJungleSummonerId (string): Internal player ID of the blue team jungler
+blueJungleChampionName (categorical): Name of the blue team toplane champion
+blueMiddleSummonerId (string): Internal player ID of the blue team midlaner
+blueMiddleChampionName (categorical): Name of the blue team midlane champion
+blueBottomSummonerId (string): Internal player ID of the blue team botlaner
+blueBottomChampionName (categorical): Name of the blue team botlane champion
+blueUtilitySummonerId (string): Internal player ID of the blue team support
+blueUtilityChampionName (categorical): Name of the blue team support champion
+redTopSummonerId (string): Internal player ID of the red team toplaner
+redTopChampionName (categorical): Name of the red team toplane champion
+redJungleSummonerId (string): Internal player ID of the red team jungler
+redJungleChampionName (categorical): Name of the red team toplane champion
+redMiddleSummonerId (string): Internal player ID of the red team midlaner
+redMiddleChampionName (categorical): Name of the red team midlane champion
+redBottomSummonerId (string): Internal player ID of the red team botlaner
+redBottomChampionName (categorical): Name of the red team botlane champion
+redUtilitySummonerId (string): Internal player ID of the red team support
+redUtilityChampionName (categorical): Name of the red team support champion
+blueTopKills15 (integer): Number of kills the blue team toplaner has scored at 15 minutes
+blueTopDeaths15 (integer): Number of times the blue team toplaner has died at 15 minutes
+blueTopAssists15 (integer): Number of assists the blue team toplaner has at 15 minutes
+blueJungleKills15 (integer): Number of kills the blue team jungler has scored at 15 minutes
+blueJungleDeaths15 (integer): Number of times the blue team jungler has died at 15 minutes
+blueJungleAssists15 (integer): Number of assists the blue team jungler has at 15 minutes
+blueMiddleKills15 (integer): Number of kills the blue team midlaner has scored at 15 minutes
+blueMiddleDeaths15 (integer): Number of times the blue team midlaner has died at 15 minutes
+blueMiddleAssists15 (integer): Number of assists the blue team midlaner has at 15 minutes
+blueBottomKills15 (integer): Number of kills the blue team botlaner has scored at 15 minutes
+blueBottomDeaths15 (integer): Number of times the blue team botlaner has died at 15 minutes
+blueBottomAssists15 (integer): Number of assists the blue team botlaner has at 15 minutes
+blueUtilityKills15 (integer): Number of kills the blue team support has scored at 15 minutes
+blueUtilityDeaths15 (integer): Number of times the blue team support has died at 15 minutes
+blueUtilityAssists15 (integer): Number of assists the blue team support has at 15 minutes
+redTopKills15 (integer): Number of kills the red team toplaner has scored at 15 minutes
+redTopDeaths15 (integer): Number of times the red team toplaner has died at 15 minutes
+redTopAssists15 (integer): Number of assists the red team toplaner has at 15 minutes
+redJungleKills15 (integer): Number of kills the red team jungler has scored at 15 minutes
+redJungleDeaths15 (integer): Number of times the red team jungler has died at 15 minutes
+redJungleAssists15 (integer): Number of assists the red team jungler has at 15 minutes
+redMiddleKills15 (integer): Number of kills the red team midlaner has scored at 15 minutes
+redMiddleDeaths15 (integer): Number of times the red team midlaner has died at 15 minutes
+redMiddleAssists15 (integer): Number of assists the red team midlaner has at 15 minutes
+redBottomKills15 (integer): Number of kills the red team botlaner has scored at 15 minutes
+redBottomDeaths15 (integer): Number of times the red team botlaner has died at 15 minutes
+redBottomAssists15 (integer): Number of assists the red team botlaner has at 15 minutes
+redUtilityKills15 (integer): Number of kills the red team support has scored at 15 minutes
+redUtilityDeaths15 (integer): Number of times the red team support has died at 15 minutes
+redUtilityAssists15 (integer): Number of assists the red team support has at 15 minutes
+blueHextechDragonKills15 (integer): Number of Hextech dragons the blue team has slain at 15 minutes
+redHextechDragonKills15 (integer): Number of Hextech dragons the redteam has slain at 15 minutes
+blueChemtechDragonKills15 (integer): Number of Chemtech dragons the blue team has slain at 15 minutes
+redChemtechDragonKills15 (integer): Number of Chemtech dragons the red team has slain at 15 minutes
+blueMountainDragonKills15 (integer): Number of Mountain dragons the blue team has slain at 15 minutes
+redMountainDragonKills15 (integer): Number of Mountain dragons the red team has slain at 15 minutes
+blueCloudDragonKills15 (integer): Number of Cloud dragons the blue team has slain at 15 minutes
+redCloudDragonKills15 (integer): Number of Cloud dragons the red team has slain at 15 minutes
+blueOceanDragonKills15 (integer): Number of Ocean dragons the blue team has slain at 15 minutes
+redOceanDragonKills15 (integer): Number of Ocean dragons the red team has slain at 15 minutes
+blueInfernalDragonKills15 (integer): Number of Infernal dragons the blue team has slain at 15 minutes
+redInfernalDragonKills15 (integer): Number of Infernal dragons the red team has slain at 15 minutes
+blueGrubKills15 (integer): Number of Voidgrubs the blue team has slain at 15 minutes
+redGrubKills15 (integer): Number of Voidgrubs the red team has slain at 15 minutes
+blueHeraldKills15 (integer): Number of Rift Heralds the blue team has slain at 15 minutes
+redHeraldKills15 (integer): Number of Rift Heralds the red team has slain at 15 minutes
+blueTopGold15 (integer): Total amount of gold the blue team toplaner has acquired at 15 minutes
+blueTopLevel15 (integer): Level of the blue team toplaner at 15 minutes
+blueJungleGold15 (integer): Total amount of gold the blue team jungler has acquired at 15 minutes
+blueJungleLevel15 (integer): Level of the blue team jungler at 15 minutes
+blueMiddleGold15 (integer): Total amount of gold the blue team midlaner has acquired at 15 minutes
+blueMiddleLevel15 (integer): Level of the blue team midlaner at 15 minutes
+blueBottomGold15 (integer): Total amount of gold the blue team botlaner has acquired at 15 minutes
+blueBottomLevel15 (integer): Level of the blue team botlaner at 15 minutes
+blueUtilityGold15 (integer): Total amount of gold the blue team support has acquired at 15 minutes
+blueUtilityLevel15 (integer): Level of the blue team support at 15 minutes
+redTopGold15 (integer): Total amount of gold the red team toplaner has acquired at 15 minutes
+redTopLevel15 (integer): Level of the red team toplaner at 15 minutes
+redJungleGold15 (integer): Total amount of gold the red team jungler has acquired at 15 minutes
+redJungleLevel15 (integer): Level of the red team jungler at 15 minutes
+redMiddleGold15 (integer): Total amount of gold the red team midlaner has acquired at 15 minutes
+redMiddleLevel15 (integer): Level of the red team midlaner at 15 minutes
+redBottomGold15 (integer): Total amount of gold red blue team botlaner has acquired at 15 minutes
+redBottomLevel15 (integer): Level of the red team botlaner at 15 minutes
+redUtilityGold15 (integer): Total amount of gold the red team support has acquired at 15 minutes
+redUtilityLevel15 (integer): Level of the red team support at 15 minutes
+goldDifference15 (integer): Blue team total gold at 15 minutes - red team total gold at 15 minutes
+rank (categorical): Rank of one of the players in the game
+division (categorical): Division within the rank of one of the players in the game
